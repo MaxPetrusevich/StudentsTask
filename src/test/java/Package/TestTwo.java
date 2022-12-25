@@ -4,17 +4,12 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
 
-import java.util.Random;
-
-public class TestOne {
+public class TestTwo {
     @Test
-    public void Test(){
-        Assert.assertTrue(Math.random() > 0.1 && Math.random() < 0.9);
+    public void Test1(){
+        Assert.assertTrue(StudentClient.typeSuper/Math.random() >= StudentClient.typeSuper);
     }
-
 
     @Before
     public void BeforeTest(){
